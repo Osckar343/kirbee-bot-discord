@@ -71,8 +71,6 @@ client.on('message', async (message) => {
     return message.channel.send(reply); //Exit
   }
 
-  message.channel.send(someEmoji);
-
   command.execute(message, args);
 
 });

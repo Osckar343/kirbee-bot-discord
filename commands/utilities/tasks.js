@@ -16,13 +16,6 @@ module.exports = {
           response += (i + 1) + " - " + args[i] + "\n";
         }
 
-
-        const someEmoji = client.emojis.get("<1025243132712976446>");
-
-        message.channel.send(someEmoji);
-
-        
-      message.channel.send('a:g_Heart_Two_Purple:1025243132712976446:');
       message.channel.send(createDate());
       message.channel.send(response);
     } 
