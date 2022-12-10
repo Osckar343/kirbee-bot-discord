@@ -72,7 +72,7 @@ client.on('message', async (message) => {
   }
 
   command.execute(message, args);
-
+// This line means that we have the same version :3 muah ♥
 });
 
 client.login(token);
